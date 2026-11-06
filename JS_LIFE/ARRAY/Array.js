@@ -214,19 +214,36 @@
 // a=[5,8,3,2,9,7]
 // console.log(a.sort())
 
-// a1=[1,8,4,20,12]
-// console.log(a1.sort())                          //[ 1, 12, 20, 4, 8 ] exception
-// //ASCENDING ORDER
-// console.log(a1.sort((a,b)=>a-b))                //[ 1, 4, 8, 12, 20 ]  
-// // DECSENDING ORDER
+//  a1=[1,8,4,20,12]
+//  console.log(a1.sort())                          //[ 1, 12, 20, 4, 8 ] exception
+// // //ASCENDING ORDER
+//  console.log(a1.sort((a,b)=>a-b))                //[ 1, 4, 8, 12, 20 ]
+
+//  // DECSENDING ORDER
 // console.log(a1.sort((a,b)=>b-a))                //[ 20, 12, 8, 4, 1 ]
+// console.log(a1)                                   //[ 20, 12, 8, 4, 1 ]
 
 //  color=['apple','anu','milk','papu']
 //  console.log(color.sort())                         //[ 'anu', 'apple', 'milk', 'papu' ]
 
 
 //toSorted()
-a1=[1,8,4,20,12]
-console.log(a1.toSorted(function(a,b){
-    console.log()
-}) )
+// a1=[1,8,4,20,12]
+// console.log(a1.toSorted(function(a,b){                      //[ 1, 4, 8, 12, 20 ]
+//     console.log('a: ', a, 'b: ',b)
+//     return a-b
+// }) )
+// console.log(a1.toSorted((a,b)=>b-a))                        //[ 20, 12, 8, 4, 1 ]
+// console.log(a1)                                               //[ 1, 8, 4, 20, 12 ]
+
+
+//toSpliced()
+// a=[20,40,60,80,100]
+// // let deletedarr=a.toSpliced(1,3)                                          //deletedarr20,100
+// // let deletedarr=a.toSpliced(1,3,'somu','ramu','junnu','soni','anish')        //deletedarr20,somu,ramu,junnu,soni,anish,100 
+// let deletedarr=a.toSpliced(0,4,'somu')                                        //deletedarrsomu,100
+// console.log('deletedarr'+ deletedarr)
+// console.log(a)                                                              //[ 20, 40, 60, 80, 100 ]
+
+
+
