@@ -1,0 +1,1 @@
+console.log("HELLO I'M FROM EXTERNAL JAVASCRIPT")

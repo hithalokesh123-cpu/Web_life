@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+       .main h3{
+            background-color: blue;
+            color: azure;
+        }
+        .main>h3{
+            background-color: blue;
+            color: azure;
+        }
+        h2+h4{
+            background-color: blue;
+            color: azure;
+        }
+        h2~h3{
+            background-color: blue;
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    <h2>Descendent Combinator</h2>
+    <div class="main">
+        <h3>child1</h3>
+        <h3>child2</h3>
+        <ul>
+        <li><h3>Descendent</h3></li>
+        </ul>
+    </div>
+    <hr>
+    <h2>Child Combinator</h2>
+    <div class="main">
+        <h3>child1</h3>
+        <h3>child2</h3>
+        <div>
+        <ul>
+        <li><h2>Descendent</h2></li>
+        </ul>
+    </div>
+    </div>
+    <hr>
+    <div >
+    <h2>Adjacent Sibiling Combinator</h2>
+     <h4>First sibiling after heading</h3>
+     <h4>Second sibiling after heading</h3>
+     </div>
+     <hr>
+     <h2>General Sibiling Combinator</h2>
+     <h3>First sibiling after heading</h3>
+     <h3>Second sibiling after heading</h3>
+     </div>
+</body>
+</html>

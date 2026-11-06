@@ -1,0 +1,23 @@
+p{
+    color:blue;
+
+    text-align: justify;
+
+    text-transform: capitalize;
+
+    text-indent: 50px;
+
+    text-decoration: overline dashed green;
+
+    text-wrap: wrap;
+
+    letter-spacing: 2px;
+
+    word-spacing: 2px;
+
+    text-shadow:1px 2px 1px black ;
+}
+h1{
+  text-shadow:1px 2px 1px black ;
+}
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #parent */
+    .mainCon{
+         height: 550px;
+        width: 790px;
+        border:rgb(8, 8, 84) solid 3px;
+        display: flex;
+        
+
+        /* #flex-direction:row/col */
+          /* flex-direction: column;  */
+
+        /* #justify-content:flex-start,flex-end,center,space-between,space-around,space-even */
+         /* justify-content:space-around;  */
+
+        /* #align-items:flex-start,flex-end,center */
+        /* align-items:flex-end; */
+
+        /* #combination-justify-content,align-item */
+        justify-content:flex-start;
+        align-items:center;
+        
+        gap:10px; 
+        flex-wrap: wrap;
+        align-content:center;
+    }
+    
+    .box{
+        height: 150px;
+        width: 150px;
+        background-color: rgb(173, 137, 92);
+        border:1px solid black;
+        display:flex;
+        
+    }
+     #box1{
+        height:60px;
+        flex-basis:400px;
+        background-color: green;
+      }
+      #box2{
+        height:70px;
+        flex-basis:200px;
+        background-color: rgb(234, 94, 38);
+      }
+      #box3{
+        height:50px;
+        flex-basis:100px;
+        background-color: rgb(195, 193, 196);
+      }
+      #box4{
+        height:50px;
+        flex-basis:193px;
+        background-color: rgb(149, 39, 182);
+      }
+      #box5{
+        height:50px;
+        flex-basis:193px;
+        background-color: rgb(215, 218, 42);
+      }
+      #box6{
+        height:50px;
+        flex-basis:202px;
+        background-color: rgb(220, 155, 217);
+      }
+      #box7{
+        height:110px;
+        flex-basis:px;
+        background-color: rgb(76, 75, 71);
+      }
+      #box8{
+        height:90px;
+        flex-basis:190px;
+        background-color: rgb(48, 228, 28);
+      }
+      
+      #box9{
+        height:90px;
+        flex-basis:575px;
+        background-color: rgb(215, 59, 23);
+      }
+      h1{
+        font-size: 80px;
+        text-align: center;
+      }
+
+    </style>
+</head>
+<body>
+   <div class="mainCon">
+    <div class="box" id="box1">box1</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box3">box3</div>
+    <div class="box" id="box4">box4</div>
+    <div class="box" id="box5">box5</div> 
+    <div class="box" id="box6">box6</div>
+    <div class="box" id="box7">box7</div>
+    <div class="box" id="box8">box8</div>
+    <div class="box" id="box9">box9</div>
+    <h1>CSS FLEX</h1>
+</body>
+
+</html>

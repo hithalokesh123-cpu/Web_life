@@ -1,0 +1,22 @@
+#box{
+    height: 700px;
+    width: 800px;
+    border: solid;
+
+    background-color: plum;
+
+    background-image: url("https://d35l77wxi0xou3.cloudfront.net/opencart/image/2023/11/1654598141-600x600654d1b8cb908a-600x600.webp");
+
+    background-position: bottom left;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+  /* body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLCzqkgk7zh3JiDbffKHTZuzXU4y_qJUgtaG_V-IN2WA&s=10") no-repeat  fixed;
+    background-size: cover ;
+   background-repeat: no-repeat; 
+       background-attachment: fixed;  
+ }   */

@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.mainnav {
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(242, 240, 238); 
+    /* border-bottom: 2px solid; */
+    display: flex;
+    align-items: center;
+    /* position: relative;
+    z-index: 10; */
+}
+
+/* #leftnav */
+.leftnav {
+    padding-left:60px;
+    width: 30%;
+    align-content: center;
+    font-family:'Times New Roman', Times, serif;
+    display:flex;
+    gap:10px;
+
+    
+}
+
+
+
+.rightnav {
+    padding-left: 10px;
+    width: 70%;
+
+}
+
+.rightnav ul {
+    column-gap: 40px;
+    display: flex;
+    align-item: center;
+}
+
+.rightnav ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight:bold; 
+}
+
+.rightnav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.rightnav ul button {
+    border-radius: 25px;
+    background-color: black;
+    color: aliceblue;
+    padding:9px 31px;
+    border: none;
+    cursor: pointer;
+    margin-left: 380px;
+    font-size:18px;
+
+}
+.secondnav {
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(242, 240, 238); 
+    /* border-bottom: 2px solid; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.secondleftnav{
+    padding-left:60px;
+    width: 50%;
+    align-content: center;
+    font-family:'Times New Roman', Times, serif;
+    display:flex;
+    gap:10px;
+}
+.secondrightnav{
+    padding-left: 700px;
+    width: 50%;
+   
+    font-family:'Times New Roman', Times, serif;
+}
+.topmain{
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(242, 240, 238); 
+    
+    display: flex;
+    align-items: center;
+    
+}
+.topmain h1{
+    padding-left: 60px;
+    font-family:'Times New Roman', Times, serif;
+    
+    font-size:15.5rem;
+    text-align: center;
+    letter-spacing: 3px;
+    letter-height: 3px;
+    color:red
+}
+.footer{
+
+    width: 100vw;
+    height: 500px;
+   
+    background-image: url('https://static.vecteezy.com/system/resources/previews/048/988/659/non_2x/crimson-red-ensemble-male-fashion-model-portrait-with-artistic-background-highlighting-trendy-males-fashion-and-stylish-lifestyle-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #d99a9a;
+    color: white;
+    min-height: 430px;
+
+    padding: 35px 5%;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.stats h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.stats p {
+    font-size: 12px;
+}
+
+
+
+.bottom-content {
+    display: grid;
+
+    grid-template-columns: 1fr 1.2fr 1fr;
+
+    align-items: center;
+
+    gap: 40px;
+}
+.description {
+    max-width: 280px;
+    margin-bottom: 50px;
+}
+
+.description p {
+    font-size: 14px;
+    line-height: 1.6;
+
+    margin-bottom: 154px;
+}
+
+.project-btn {
+    background-color: #f5f5f0;
+
+    border: none;
+
+    padding: 15px 22px;
+
+    border-radius: 30px;
+
+    cursor: pointer;
+      
+    margin-right: 10px;
+
+    margin-top: 50px;
+
+}
+
+.description a {
+    color: #333;
+
+    text-decoration: none;
+
+    font-size: 13px;
+}
+.services {
+    justify-self: end;
+    margin-right:-450px;
+    text-align: left;
+}
+
+.services p {
+    font-size: 13px;
+    
+    margin: 15px 0;
+}
+
+

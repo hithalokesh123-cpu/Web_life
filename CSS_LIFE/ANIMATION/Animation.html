@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing:border-box;
+        }
+        .mainbox{
+            height: 600px;
+            width: 500px;
+            border:3px solid black;
+
+        }
+        .childbox{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(16, 228, 157);
+            color: black;
+            border-radius: 50%;
+
+            animation:superman;
+            /* #mandatory */
+            animation-duration: 5s; 
+             /* animation-delay: 3s; */
+            animation-timing-function: ease;
+            /* animation-iteration-count:5;  */
+
+            /* animation-direction: normal; */
+            /* animation-direction: alternate; */
+            /* animation-direction: reverse; */
+            /* animation-direction: alternate-reverse; */
+            animation-fill-mode:both;
+
+        }
+        @keyframes superman {
+            /* from{
+                transform:translate(0px,0px);
+            }
+            to{
+              transform:translate(400px,0px) rotate(360deg) scale(3);
+            } */
+            0%{
+                transform:translate(0px,0px) rotate(90deg);
+                /* animation-iteration-count: infinite; */
+                background-color:purple;
+            }
+            100%{
+                transform:translate(400px,0px);
+                background-color: blue;
+            }
+            /* 50%{
+                transform:translate(400px,500px)
+
+            }
+            75%{
+                transform:translate(0px,500px) ;
+            } */
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="mainbox">
+        <div class="childbox">
+            <b>Box1</b>
+        </div>
+    </div>
+</body>
+</html>

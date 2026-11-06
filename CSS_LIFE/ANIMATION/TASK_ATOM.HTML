@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Orbit</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRer4jIJUSxP4wiGpB6-EN4M1zmIQcU8vFTHv6PUhDSdyAYIwwZh7ifL4Dy&s=10');
+            background-size: cover;
+        }
+
+        .orbit {
+            position: relative;
+            width: 400px;
+            height: 400px;
+        }
+
+        /* Big circle */
+        .big-circle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            height: 400px;
+            background-color:white;
+            /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRer4jIJUSxP4wiGpB6-EN4M1zmIQcU8vFTHv6PUhDSdyAYIwwZh7ifL4Dy&s=10');
+            background-size: cover; */
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+         .oval-path {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            height: 200px;
+            border: 3px solid black;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* This wrapper rotates */
+        .rotate {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            animation: orbit 3s linear infinite;
+        }
+
+        /* Small circle */
+        .small-circle {
+            position: absolute;
+            top: -45px;
+            left: 155px;
+            width: 90px;
+            height: 90px;
+            background-color: rgb(231, 76, 15);
+            border-radius: 50%;
+        }
+
+        @keyframes orbit {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="orbit">
+
+        <div class="big-circle"></div>
+         <div class="oval-path"></div>
+        <div class="rotate">
+            <div class="small-circle"></div>
+        </div>
+
+    </div>
+
+</body>
+</html>

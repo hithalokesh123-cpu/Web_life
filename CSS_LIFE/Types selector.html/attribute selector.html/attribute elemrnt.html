@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #attr name */
+        /* input[type]{
+            background-color: aquamarine;
+             color:blue ; 
+        }   */
+         /* #attr name with value  */
+        /* input[type=text]{
+            background-color: blueviolet;
+        }   */
+
+          /* #attr taget specific word from the value  */
+         /* input[placeholder ~= the]{
+            background-color: bisque;
+            color: azure;
+         } */
+
+
+          /* #attr | ="value" specific words and '-' */
+         /* input[lang|=en]{
+            background-color: rgb(165, 107, 36);
+            color: azure; 
+        }   */
+        
+        
+         /* #tag[attr ^ =value] taget only the first word */
+        /* a[href^="http"]{
+            color:red;
+        } */
+
+        /* a[href^="https"]{
+            color:rgb(7, 109, 38);
+        }  */
+
+          /* #tag[attr $ =value] taget only the last word */ 
+          /* input[placeholder $='name']{
+            background-color: brown;
+
+        }  */
+
+
+        /* #tag[attr * =value] taget specfic word or substring */
+         input[placeholder *='me']{
+            background-color: rgb(33, 108, 221);
+        } 
+
+    </style>
+</head>
+<body>
+    <form>
+     <!-- <label>userName</label>
+    <input type="text" placeholder="Enter the username"><br><br>
+    <label>userEmail</label>
+    <input type="email" placeholder="Enterthe email"><br><br>
+    <button>submit</button>  -->
+    <hr>
+      <!-- #attr |="value",#tag[attr $ =value] taget only the last word  -->
+       <label>userName</label>
+    <input type="text" placeholder="Enter the username" lang="en-us"><br><br>
+    <label>userEmail</label>
+    <input type="email" placeholder="Enterthe email"><br><br>
+    <button>submit</button>
+    </form>
+   <hr>
+    <!-- #tag[attr ^ =value] taget only the first word -->
+    <a href="https:://www.google.com">google</a>
+    <a href="http:://www.abcd.com">abcd</a>
+    
+</body>
+</html>

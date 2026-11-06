@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .supred{
+            color: red;
+        }
+        input:placeholder-shown{
+            background-color: rgb(226, 206, 206);
+        }
+        input:invalid{
+            background-color: red;
+        }
+       
+    </style>
+</head>
+<body style="background-color: rgb(113, 203, 228);">
+    <form>
+        <fieldset>
+            <legend>Application information </legend>
+            <label required><b>Name<sup class="supred">*</sup></b></label><br><br>
+        <select name="sirname" >
+            <option value="">Mr</option>
+            <option value="">Mrs</option>
+            <option value=>Dr</option>
+        </select>
+        <input placeholder="First name" autofocus >
+        <input placeholder="Last name" autofocus ><br><br>
+        <label for="addr"><b>Address<sup class="supred">*</sup></b></label><br><br>
+        <input type="text" id="addr" name="addr" placeholder="Street Address1" size="20"><br><br>
+        <input type="text" id="addr" name="addr" placeholder="Street Address2" size="20"><br><br>
+        <input type="text" id="addr" name="addr" placeholder="City" >
+        <input type="text" id="addr" name="addr" placeholder="State" ><br><br>
+        <input type="text" id="addr" name="addr" placeholder="Zip code" >
+        <input type="text"  name="cou" list="country" placeholder="Country">
+        <datalist id="country">
+           <option value="India">India</option>
+            <option value="UK" >UK</option>
+            <option value="USA" >USA</option>
+            <option value="Canada">Canada</option>
+        </datalist><br><br>
+        <label required for="email"><b>Email<sup class="supred">*</sup></b></label><br><br>
+        <input  type="email" id="email" placeholder="Email address" name="email"><br><br>
+        <label for="phn"><b>Phn no<sup class="supred">*</sup></b></label><br><br
+>        <input type="tel" id="phn" name="phn" placeholder="phone number" maxlength="10"><br><br>
+         <button>submit</button>
+
+       </fieldset>
+    </form>
+
+</body>
+</html>

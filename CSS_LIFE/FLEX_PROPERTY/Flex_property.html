@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #parent */
+    .mainCon{
+        height: 700px;
+        width: 1000px;
+        border:rgb(8, 8, 84) solid 3px;
+        display: flex;
+
+        /* #flex-direction:row/col */
+         flex-direction: row;
+
+        /* #justify-content:flex-start,flex-end,center,space-between,space-around,space-even */
+        /* justify-content:space-around; */
+
+        /* #align-items:flex-start,flex-end,center */
+        /* align-items:flex-end; */
+
+        /* #combination-justify-content,align-item */
+         /* justify-content:flex-start;
+        align-items:flex-start;  */
+        
+       /* #flex-wrap:nowrap,wrap */
+       /* flex-wrap:wrap; */
+       align-content: center;
+  
+       /* #align-content:flex-start,flex-end,center,space-between,space-around,space-evenly; */
+       /* align-items:end; */
+       align-items:end;
+
+       /* #row-gap:npx, */
+        /* gap:10px 10px;  */
+    }
+
+    /* #child */
+    .box{
+        height: 150px;
+        width: 150px;
+        background-color: rgb(173, 137, 92);
+        border:1px solid black
+    }
+    </style>
+</head>
+<body>
+   <div class="mainCon">
+    <div class="box" id="box">box1</div>
+    <div class="box" id="box">box2</div>
+    <div class="box" id="box">box3</div>
+    <div class="box" id="box">box4</div>
+    <div class="box" id="box">box5</div>
+
+    <div class="box" id="box">box6</div>
+    <div class="box" id="box">box7</div>
+    <div class="box" id="box">box8</div>
+    <div class="box" id="box">box9</div>
+    <div class="box" id="box">box10</div>
+   </div>
+</body>
+</html>

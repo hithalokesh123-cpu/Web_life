@@ -1,0 +1,34 @@
+#box{
+    height: 400px;
+    width: 400px;
+
+    border-width:10px;
+    border-style: double;
+    border-color: blueviolet;
+    border: 10px groove green;
+}
+#box2{
+     height: 400px;
+     width: 400px;
+
+    border:10px double purple;
+    border-top-left-radius: 10px;
+    border-top-right-radius:20px ;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 40px;
+
+    border-radius: 10px 20px 30px 40px;
+    /* set of 3 values */
+    border-radius: 10px 20px 30px;
+
+    /* set of 2 values */
+    border-radius: 10px 20px;
+
+    /* set of 1 value */
+    border-radius: 10px;
+}
+table{
+    border-spacing: 50px; 
+    /* high priority */
+    border-collapse: collapse;
+}

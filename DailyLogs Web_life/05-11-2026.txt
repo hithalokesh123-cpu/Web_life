@@ -1,0 +1,38 @@
+05-11-2026 WEB_LIFE LOGS
+string program
+
+//reverse the string
+s1='good bad'
+console.log(s1.split("").reverse().join(""))
+
+//validate email address
+email='abcd123@gmail.com'
+if(email.endsWith('@gmail.com')){
+   console.log('it is valid email')
+ }
+  else{
+  console.log('it is not valid email')
+}
+
+//4 digit credit card number  should display rest all for privacy
+creditno='234567890987654'
+console.log(creditno.slice(-4).padStart(creditno.length,'*'))
+
+//check if a word is pallindrome or not 
+function is_palindrome(str){
+  let rev=str.split('').reverse().join('')
+  return str === rev
+}
+console.log(is_palindrome('energy'))
+console.log(is_palindrome('mom'))
+console.log(is_palindrome('bob'))
+console.log(is_palindrome('bomb'))
+
+//extract file extraction from a filename
+file='image.png'
+console.log(file.slice(file.lastIndexOf('.')))
+ 
+function filename(file){
+    return (file.slice(file.lastIndexOf('.')))
+}
+console.log(filename("document.txt"))
