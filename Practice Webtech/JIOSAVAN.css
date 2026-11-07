@@ -1,0 +1,251 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+html,body{
+    width:100vw;
+    height:100vh;
+}
+.container{
+    height:100vh;
+    width:100vw;
+    display:flex;
+}
+.leftcontainer{
+    height:100vh;
+    width:50vw;
+    background-color: aquamarine;
+    background-image:url(./jiosavan\ pic.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+   
+}
+.rightcontainer{
+    height:100vh;
+    width:50vw;
+    /* background-color: rgb(192, 192, 104); */
+    
+    
+}
+.mainnav{
+    width:50vw;
+    height:50px;
+    background-color: rgb(242, 240, 238); 
+    /* border-bottom: 2px solid; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.leftnav {
+    padding-left:60px;
+    width: 30%;
+    align-content: center;
+    font-family:'Times New Roman', Times, serif;
+    display:flex;
+    gap:10px;
+}
+.leftnav .box img {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: -44px; 
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+
+}
+
+.rightnav{
+    padding-left: 50px;
+    width: 70%;
+    display:flex;
+}
+.rightnav button {
+    border-radius: 25px;
+    background-color: rgb(255, 254, 254);
+    color: rgb(8, 8, 8);
+    padding:7px 35px;
+    border: 1px solid rgb(8, 8, 8);
+    cursor: pointer;
+    margin-left: 280px;
+    
+}
+.rightnav button:hover{
+    background-color: rgb(11, 11, 11);
+    color: rgb(243, 241, 241);
+    border: 1px solid black;
+}
+.rightnav span{
+ margin-right:-63%;
+ padding-left:4%;
+ margin-top: 10px;
+ /* font-family:Lato, sans-serif; */
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content:center;
+    /* background-color: rgb(70, 124, 124); */
+    margin-left:20%;
+    margin-top:2%;
+    margin-right:14%;
+    margin-bottom:14%;
+    padding: 20px;
+    
+    
+    /* border: 2px solid black; */
+
+}
+form h1{
+    color:#3e3e3e;
+    text-align:left;
+    font-family:Lato, sans-serif;
+    font:30px;
+    letter-spacing: 1px;
+    line-height: 1.2941176471;
+   
+
+}
+form p{
+    color:#3e3e3e;
+    text-align:left;
+    line-height: 1.4666666667;
+    font-family:Lato, sans-serif;
+    margin:0px,0px,22px;
+    font:15px;
+}
+form input{
+    align-items: center;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 999px;
+    display: flex;
+    height: 47px;
+    padding: 0 20px;
+}
+ form input::placeholder{
+    font-family:Lato, sans-serif;
+    font:15px;   
+    text-align:center;
+    color: #2a2d36;
+    padding: 11px 22px;
+    font-size: medium;
+ }
+
+.button1{
+   background-color:#00b597;
+   font-size:large;
+   font-weight:600;
+   padding: 11px 44px;
+   margin:0px;
+   font-family:Lato, sans-serif;
+   border-radius: 25px;
+   border: none;
+}
+.button1:hover{
+    background-color:#177d6c; 
+    color: rgb(16, 16, 16);
+  
+}
+
+.para1{
+    color: #2a2d36;
+    font-family:Lato, sans-serif;
+    font:15px;
+    text-align:left;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: .8666666667rem;
+    line-height: 1.4;
+}
+.para2{
+    background: #f6f6f6;
+    color: #a9a9a9;
+    /* z-index: 2;
+    position: absolute */
+
+}
+.button2{
+    border-radius: 25px;
+    background-color: rgb(72, 70, 70);
+    color: rgb(246, 244, 244);
+    padding:16px 70px; 
+    border: 1px solid rgb(8, 8, 8);
+    cursor: pointer;
+    border:none
+}
+.button2:hover{
+    background-color:rgb(45, 42, 42); 
+    color: rgb(250, 246, 246);
+}
+.button3{
+    border-radius: 25px;
+    background-color: rgb(76, 66, 180);
+    color: rgb(245, 245, 246);
+    padding:16px 69px;
+    border: 1px solid rgb(8, 8, 8);
+    cursor: pointer;
+    border:none
+}
+.button3:hover{
+    background-color:rgb(50, 39, 167);
+    color: rgb(250, 246, 246);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
