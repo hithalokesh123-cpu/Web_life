@@ -36,3 +36,82 @@ function filename(file){
     return (file.slice(file.lastIndexOf('.')))
 }
 console.log(filename("document.txt"))
+
+
+//--------------------------- DAY 3 -----------------------------------------
+#javascript meaning ?
+it  is high level programming language which is used to add the functionality / interactive webpage 
+
+#characterstics of javascript
+1) client-side-scripting language:
+where some of the code can be run on the brower itself no need the server
+
+2)weakly-typed language
+where we can perform the operation on different data types like string+number,number+string
+
+3)dynamically-typed language
+it decalared the datatype during the run-time based on the value
+
+4)interpreted language
+where code execute line by line ,where the debugging is easier
+
+5)sychronous in nature
+where the task is exceute one at a time one.
+
+#javascript run-time enivironment
+it provide all the necessary component to run the javascript code
+->js engine also one of the important component in the jre 
+->But alone JRE can't do. Run the Javascript code. It dependent on. Web browser API. That will provide.Functionalities. ->To a JS engine. To run the JavaScript code. And all.
+-> Main task queue and task queue will store the asynchronous task. Then Task. 
+->Then the call stack. Help us to execute a synchronous and asynchronous task.
+-> Event loop act as The security guards keep on checking the call stack. Empty or not 
+->That means initially in the call stack synchronous task will be executed. Where once it is empty. 
+It sends the notifications to Main task queue and the task queue To push the asynchronous task to the Call stacks.
+
+
+#variables
+it is a container which hold some value
+
+3 ways to declare the variable:
+let
+const
+var
+
+let 
+only declaration is possinle
+only initialization is possible
+both declaration and initialization  is possible in single line
+re - initialization is possible
+re - declaration is  not possible
+
+var
+only declaration is possinle
+only initialization is possible
+both declaration and initialization  is possible in single line
+re - initialization is possible
+re - declaration is  possible
+
+
+const
+only declaration is not possinle
+only initialization is not  possible
+both declaration and initialization  is possible in single line
+re - initialization is not  possible
+re - declaration is  not possible
+
+#data types
+1)primative data type:
+number
+string 
+null
+undefined
+bigInt
+symbol
+
+2)non-primative data type:
+object 
+array
+function 
+
+number:
+it is a value ,which can be whole number ,it can consider the integer or decimal 
