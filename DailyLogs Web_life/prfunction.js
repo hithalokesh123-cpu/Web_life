@@ -50,6 +50,7 @@
 // }
 // is_palindrome('lal')
 
+
 //write the function  to reverse a string
 // function reverse(str){
 //     word=' '
@@ -59,3 +60,6 @@
 //     return(word)
 // }
 // console.log(reverse('bad'))
+
+
+
