@@ -113,5 +113,4 @@ object
 array
 function 
 
-number:
-it is a value ,which can be whole number ,it can consider the integer or decimal 
+ 
