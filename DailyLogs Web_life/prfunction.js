@@ -64,4 +64,53 @@
 
 //---------------------------------- DAY 4 --------------------------------------------------
 // ARRAY RELATED PROBLEM
+//find the sum of all the elements  in an array
+// let arr=[1,2,3,4,5]
+// let sum=0
+// for(i=0;i<arr.length;i++){
+//    sum=sum+arr[i]
+   
+// }
+// console.log(sum)
 
+//find the largest element in an array
+// let a=[10,15,12,16,4]
+// let largest=0
+// for(i=0;i<a.length;i++){
+//     if (a[i ] > largest){
+//       largest=a[i]
+//     }
+// }
+// console.log('The largest element in an array is :'+largest)
+
+//Count even and odd numbers in an array
+// a=[1,2,3,15,12,16,17]
+// even=0
+// odd=0
+// for(i=0;i<a.length;i++){
+//     if(a[i]%2 == 0){
+//         even = even + 1
+//     }
+//     else{
+//         odd = odd + 1
+//     }
+// }
+// console.log('Even number='+even)
+// console.log('Odd number='+odd)
+
+//reverse an array without using reverse()
+// a=[10,20,30,40,50]
+// rev=[]
+// for(i=a.length-1;i>=0;i--){
+//     rev.push(a[i])
+// }
+// console.log(rev)
+
+//Find the average of array element
+// a=[10,20,30,40,50]
+// sum=0
+// for(i=0;i<a.length;i++){
+//     sum=sum=a[i]
+//     average=sum/a.length
+// }
+// console.log('Average='+average)
