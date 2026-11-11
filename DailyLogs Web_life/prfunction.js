@@ -117,4 +117,40 @@
 
 //------------------------------- DAY 5 ----------------------------------
 //###################### ARRAY METHODS  ###################################
+// Second largest in an array
+// let a=[10,13,16,22,31,29,39]
+// largest=0
+// secondlargest=0
+// for(i=0;i<a.length;i++){
+//     if (a[i]> largest){
+//         secondlargest=largest
+//         largest=a[i]
+//     }
+//     else if(a[i]>secondlargest && a[i]<largest){
+//         secondlargest=a[i]
+//     }
+// }
+// console.log(secondlargest)
 
+//remove the duplicate element from an array
+// let a=[10,20,10,30,20,40]
+// let result=[]
+// for(i=0;i<a.length;i++){
+//     if (!result.includes(a[i])){
+//         result[result.length]=a[i]
+//     }
+    
+// }
+// console.log(result)
+
+//fing the frequency of each element 
+a=[10,20,10,30,20,10]
+let frequency={}
+for(i=0;i<a.length;i++){
+    if(frequency[a[i]] === undefined){
+       frequency[a[i]]=1
+    } else{
+        frequency[a[i]]=frequency[a[i]]+1
+    }
+}
+console.log(frequency)
