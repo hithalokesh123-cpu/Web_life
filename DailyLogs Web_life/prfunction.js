@@ -143,14 +143,14 @@
 // }
 // console.log(result)
 
-//fing the frequency of each element 
-a=[10,20,10,30,20,10]
-let frequency={}
-for(i=0;i<a.length;i++){
-    if(frequency[a[i]] === undefined){
-       frequency[a[i]]=1
-    } else{
-        frequency[a[i]]=frequency[a[i]]+1
-    }
-}
-console.log(frequency)
+//find the frequency of each element 
+// a=[10,20,10,30,20,10]
+// let frequency={}
+// for(i=0;i<a.length;i++){
+//     if(frequency[a[i]] === undefined){
+//        frequency[a[i]]=1
+//     } else{
+//         frequency[a[i]]=frequency[a[i]]+1
+//     }
+// }
+// console.log(frequency)
