@@ -154,3 +154,7 @@
 //     }
 // }
 // console.log(frequency)
+
+
+//####################### DAY 6 ##########################
+//String method using  program 
