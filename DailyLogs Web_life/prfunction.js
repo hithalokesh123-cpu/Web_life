@@ -158,3 +158,58 @@
 
 //####################### DAY 6 ##########################
 //String method using  program 
+// let s='javascript'
+// console.log(s.split('').reverse().join(""))
+
+//count character without the space 
+// let s='hello world'
+// console.log(s.replaceAll(" ","").length)
+
+//Convert the first letter to uppercase
+// let s='python programming'
+// console.log(s.replace('p','P'))
+
+//Count the vowel in the string 
+// let s="javascript programming"
+// vowel=0
+// for(i=0;i<s.length;i++){
+//     if ('aeiou'.includes(s[i])){
+//         vowel=vowel+1
+//     }
+// }
+// console.log(vowel)
+
+//check whether the string is pallindrome or not 
+// let s='madam'
+// let rev=s.split('').reverse().join("")
+// if (s == rev){
+//     console.log(rev+ ' is palindrome')
+// }
+// else{
+//     console.log(rev+ ' is not palindrome')
+// }
+
+//Find the frequncy of each character in a string 
+// let s="banana"
+// frequency={}
+// for(i=0;i<s.length;i++){
+//     if (frequency[s[i]] == undefined){
+//         frequency[s[i]]=1
+//     }
+//     else{
+//         frequency[s[i]]=frequency[s[i]]+1
+//     }
+// }
+// console.log(frequency)
+
+
+//Find the longest word in a sentence
+// let s=" i am learning javascript programming"
+// longest=' '
+// word=s.split(' ')
+// for(i=0;i<word.length;i++){
+//     if (word[i].length >longest.length){
+//        longest=word[i]
+//     }
+// }
+// console.log(longest)
