@@ -41,3 +41,45 @@
 // var data ="somu"
 // console.log(data);                                        //2.somu
 // print()
+
+//Example 3
+// var x=5
+// function display(){
+//     console.log(x)
+//     var x=15
+// function show(){
+//     console.log(x)
+// }
+// show()
+// }
+// display()
+
+//EXAMPLE 4
+// var a=10;
+// function test(){
+//     console.log(a)
+
+//     let a=20
+
+//     console.log(a)
+// }
+// test()
+
+//EXAMPLE 5 
+var x=100
+function first(){
+    console.log(x)                                                  //undefined
+    
+    var x=200
+    
+    function second(){
+        console.log(x)                                               //undefined
+        
+        var x=300
+        console.log(x)                                                   //300
+    }
+    second()
+    console.log(x)                                                       //200
+}
+first()
+console.log(x)                                                           //100
