@@ -117,3 +117,49 @@ function
 ######################### Day 7 ########################################
 ##################### core working #####################################
 
+it creates the GCE have 2 phases:
+1)Creation phase
+2) exceution phases
+
+program 
+
+console.log(data);
+function print(){
+  console.log("print")
+}
+var data = 'somu'
+console.log(data);
+print()
+
+
+
+ console.log(data);                                        //1.undefined
+ function print(){
+     let name='rani'
+     console.log(data)                                   //3.somu
+    console.log(name)                                   //4.rani
+}
+ var data ="somu"
+console.log(data);                                        //2.somu
+print()
+
+
+
+//EXAMPLE 5 
+var x=100
+function first(){
+    console.log(x)                                                  //undefined
+    
+    var x=200
+    
+    function second(){
+        console.log(x)                                               //undefined
+        
+        var x=300
+        console.log(x)                                                   //300
+    }
+    second()
+    console.log(x)                                                       //200
+}
+first()
+console.log(x)   
