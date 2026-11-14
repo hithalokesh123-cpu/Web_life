@@ -21,6 +21,9 @@
 // const data='somu'
 // console.log(data)           //somu
 
+
+
+
 //EXAMPLE 1
 // console.log(data);                                       //1.undefined
 // function print(){
@@ -42,44 +45,73 @@
 // console.log(data);                                        //2.somu
 // print()
 
-//Example 3
-// var x=5
-// function display(){
-//     console.log(x)
-//     var x=15
-// function show(){
-//     console.log(x)
+
+//********EXAMPLE 3 ***************
+// console.log(data);                                        //1.undefined
+// let printFun=function print(){
+//      let name='rani'
+//      console.log(data)                                   //3.somu
+//      console.log(name)                                   //4.rani
 // }
-// show()
-// }
-// display()
+// var data ="somu"
+// console.log(data);                                        //2.somu
+// printFun()
 
 //EXAMPLE 4
-// var a=10;
-// function test(){
-//     console.log(a)
-
-//     let a=20
-
-//     console.log(a)
+// console.log(data); 
+// printFun()                                        //TypeError: printFun is not a function
+// var printFun=function print(){
+//      let name='rani'
+//      console.log(data)                                   
+//      console.log(name)                                  
 // }
-// test()
+// var data ="somu"
+// console.log(data);                                        
 
-//EXAMPLE 5 
-var x=100
-function first(){
-    console.log(x)                                                  //undefined
-    
-    var x=200
-    
-    function second(){
-        console.log(x)                                               //undefined
-        
-        var x=300
-        console.log(x)                                                   //300
-    }
-    second()
-    console.log(x)                                                       //200
+
+
+//SCOPE OF VARIABLE 
+ 
+                   // GLOBAL SCOPE 
+
+// console.log(data);                                       
+// function print(){
+//      let name='rani'
+//      console.log(data)          // WHERE ACCESS THE DATA FROM OUTSIDE THAT 'somu'                          
+//      console.log(name)                                  
+// }
+// var data ="somu"                //GLOBALSCOPE
+// console.log(data);                                   
+// print()
+
+
+                        //FUNCTION SCOPE 
+// console.log(data);                                       
+// function print(){
+//      var name='rani'
+//      console.log(data)               // function scope                                                         
+// }
+// print()
+// console.log(name)                       //ReferenceError: name is not defined
+// var data ="somu"                
+// console.log(data);                                   
+
+//Global Scope
+let x=10
+function print(){
+    x=20
+    console.log(x)            //20
 }
-first()
-console.log(x)                                                           //100
+print()
+console.log(x)               //20
+
+//it is not recommended 
+//to write it is mandatory to declare the variable
+//it wiil be act has global scope
+ x=10
+function print(){
+    x=20
+    console.log(x)            //20
+}
+print()
+console.log(x)               //20
