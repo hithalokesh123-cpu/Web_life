@@ -251,4 +251,57 @@
 // calEvenOdd([1,2,3,4,5,6,7,8,9,10])
 
 
-//
+//find the common elements between two array
+// let a=[10,20,30,40,50]
+// let b=[30,40,50,60,70]
+// let c=[]
+// function findCommon(a,b){
+//     for(i=0;i<a.length;i++){
+//         for(j=0;j<b.length;j++){
+//             if (a[i] == b[j]){
+//                 c.push(a[i])
+//             }
+//         }
+//     }
+//     return c
+// }
+// console.log(findCommon(a,b))
+
+
+//check whether a number is a Strong Number
+// let is_Strong=(n)=>{
+//     temp=n
+//     sum=0
+//     while (n>0){
+//         d=n%10
+//         fact=1
+//         for(i=1;i<=d;i++){
+//             fact=fact*i
+//             // sum=sum+fact
+//         }
+//     sum=sum+fact
+//     n=Math.floor(n/10)
+//     }
+//     return sum == temp
+// }
+// console.log(is_Strong(125))
+
+//Move all  zeros to the end of an array without changing the order of the other element 
+let a=[0,5,0,3,8,0,2]
+function moveZerosToEnd(a){
+    let result=[]
+    let count=0
+    for(i=0;i<a.length;i++){
+        if (a[i] != 0){
+            result.push(a[i])
+        }
+        else{
+            count++
+        }
+    }
+for(i=0;i<count;i++){
+    result.push(0)
+}
+return result
+}
+console.log(moveZerosToEnd(a))
