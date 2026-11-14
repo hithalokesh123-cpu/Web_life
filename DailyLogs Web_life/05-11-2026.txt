@@ -167,6 +167,7 @@ print()
 // }
 // test()
 
+
 //EXAMPLE 5 
 var x=100
 function first(){
