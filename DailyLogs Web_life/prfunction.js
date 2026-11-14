@@ -213,3 +213,42 @@
 //     }
 // }
 // console.log(longest)
+
+// let s='hello world in the day'
+// res=' '
+//  word=s.split(' ')
+//  console.log(word)
+// for(i=-1;i>=-word.length;i--){
+//     console.log(word.at(i))
+//     ch=word.at(i)
+    
+//     for(j=-1;j>=-ch.length; j--){
+//         // console.log(ch)
+//         res=res.concat(ch.at(j))
+//     }  
+//     res=res+' '
+// }
+// console.log(res)
+
+
+//##########################  DAY 8 ######################################
+// ************************ FUNCTION *************************************
+// Calculate the sum of even and odd number
+// function calEvenOdd(arg){
+//     let even=0
+//     let odd=0
+//     for(i=0;i<arg.length;i++){
+//         if (arg[i]%2==0){
+//             even=even+arg[i]
+//         }
+//         else{
+//             odd=odd+arg[i]
+//         }
+//     }
+//     console.log("Sum of even numbers:", even)
+//     console.log("Sum of odd numbers:", odd)
+// }
+// calEvenOdd([1,2,3,4,5,6,7,8,9,10])
+
+
+//
