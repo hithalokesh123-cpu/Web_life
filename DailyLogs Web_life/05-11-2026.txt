@@ -143,7 +143,29 @@ print()
 console.log(data);                                        //2.somu
 print()
 
+//Example 3
+// var x=5
+// function display(){
+//     console.log(x)
+//     var x=15
+// function show(){
+//     console.log(x)
+// }
+// show()
+// }
+// display()
 
+
+//EXAMPLE 4
+// var a=10;
+// function test(){
+//     console.log(a)
+
+//     let a=20
+
+//     console.log(a)
+// }
+// test()
 
 //EXAMPLE 5 
 var x=100
