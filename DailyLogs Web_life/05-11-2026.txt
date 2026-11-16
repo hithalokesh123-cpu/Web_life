@@ -186,3 +186,14 @@ function first(){
 }
 first()
 console.log(x)   
+
+
+//*************************** Day 8 *********************************
+ hoisting 
+ meaning 
+ 3 ways how different
+ * var
+ * let 
+ * const
+
+ programs on while string methods 
