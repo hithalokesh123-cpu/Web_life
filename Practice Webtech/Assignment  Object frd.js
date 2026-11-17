@@ -83,8 +83,8 @@ let friend5={
         programming:['java','C#','SQlite'],
         communication:['Excellent',['verbal','written']],
     },
-    drawing:function(){
-        console.log("Navya love drawing")
+    dancing:function(){
+        console.log("Ganu love dancing")
     }
 }
 
@@ -94,19 +94,95 @@ let friend6={
     location:'Hesrughatta',
     phone:'8654567865',
     email:'vishnu@example.com',
-    qualification:'B.Sc',
-    hobbies:["cooking"],
+    qualification:'B.Com',
+    hobbies:["cooking","traveling","listening music"],
     skills:{
-        programming:['java','C#','SQlite'],
+        programming:['tally','Finance','Accounting'],
         communication:['Excellent',['verbal','written']],
     },
-    drawing:function(){
-        console.log("Navya love drawing")
+    riding:function(){
+        console.log("Vishnu love riding")
     }
 }
 
+let friend7={
+    name:'Harshi',
+    age:21,
+    location:'8th mile',
+    phone:'6756896543',
+    email:'harshi@example.com',
+    qualification:'B.Com',
+    hobbies:["cooking","listening music"],
+    skills:{
+        programming:['tally','Finance','Accounting'],
+        communication:['Excellent',['verbal','written']],
+    },
+    dancing:function(){
+        console.log("Harshi love dancing")
+    }
+}
 
-// console.log(friend1)
-// console.log(friend2)
-// console.log(friend3)
+let friend8={
+    name:'Rahul',
+    age:22,
+    location:'Nelmangala town',
+    phone:'7654345678',
+    email:'rahul@example.com',
+    qualification:'information technology',
+    hobbies:["reading","traveling","cooking"],
+    skills:{
+        programming:['JavaScript',["string methods","DOM manipulation"]],
+        design:['Photoshop'],
+        communication:['Excellent',['verbal','written']],
+    },
+    coding:function(){
+        console.log("Rahul love coding")
+    }
+}
 
+let friend9={
+    name:'Sangeetha',
+    age:22,
+    location:'Jayanagar',
+    phone:'7654456787',
+    email:'sangeetha@example.com',
+    qualification:'BCA',
+    hobbies:["reading", "listening music", "cooking"],
+    skills:{
+        programming:['JavaScript',["string methods","DOM manipulation"]],
+        design:['Photoshop'],
+        communication:['Excellent',['verbal','written']],
+    },
+    coding:function(){
+        console.log("Sangeetha love coding")
+    }
+}
+
+let friend10={
+    name:'Goldy',
+    age:22,
+    location:'Nelmangala town',
+    phone:'7654345678',
+    email:'goldy@example.com',
+    qualification:'B.Tech',
+    hobbies:["reading","traveling","cooking"],
+    skills:{
+        programming:['Python',["string methods","OOPS concepts","Data structures"]],
+        tools:['anaconda','jupyter notebook'],
+        communication:['Excellent',['verbal','written']],
+    },
+    gen:function(){
+        console.log("Goldy is generating code")
+    }
+}
+
+console.log(friend1)
+console.log(friend2)
+console.log(friend3)
+console.log(friend4)
+console.log(friend5)
+console.log(friend6)
+console.log(friend7)
+console.log(friend8)
+console.log(friend9)
+console.log(friend10)
