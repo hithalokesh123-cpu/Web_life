@@ -97,21 +97,66 @@
 // console.log(data);                                   
 
 //Global Scope
-let x=10
-function print(){
-    x=20
-    console.log(x)            //20
-}
-print()
-console.log(x)               //20
+// let x=10
+// function print(){
+//     x=20
+//     console.log(x)            //20
+// }
+// print()
+// console.log(x)               //20
+
+
 
 //it is not recommended 
 //to write it is mandatory to declare the variable
 //it wiil be act has global scope
- x=10
-function print(){
-    x=20
-    console.log(x)            //20
-}
-print()
-console.log(x)               //20
+//  x=10
+// function print(){
+//     x=20
+//     console.log(x)            //20
+// }
+// print()
+// console.log(x)               //20
+
+
+
+//BLOCK SCOPE 
+//in case let 
+// let flag=true
+// if(flag){
+//     let data=100
+//     console.log('Value of the data'+data)
+// }
+// else{
+//     let data=200
+//     console.log('Value of the data'+data)
+// }
+// console.log(data)      //ReferenceError: data is not defined
+
+
+// in case of var
+// let flag=true
+// if(flag){
+//     var data=100
+//     console.log('Value of the data '+data)    //100
+// }
+// else{
+//     var data=200
+//     console.log('Value of the data '+data)
+// } 
+// console.log(data)                             //100
+
+
+//Lexical Scope
+// let data1='somu'
+// function outerfunction(){
+//     let data2='rani'
+//     function innerfunction{
+//         let data3='ramu'
+//         console.log(data1)                         //somu
+//         console.log(data2)                         //rani
+//         console.log(data3)                         //ramu
+//     }
+//     innerfunction()
+// }
+// outerfunction()
