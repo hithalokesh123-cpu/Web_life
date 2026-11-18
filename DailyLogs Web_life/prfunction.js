@@ -287,21 +287,23 @@
 // console.log(is_Strong(125))
 
 //Move all  zeros to the end of an array without changing the order of the other element 
-let a=[0,5,0,3,8,0,2]
-function moveZerosToEnd(a){
-    let result=[]
-    let count=0
-    for(i=0;i<a.length;i++){
-        if (a[i] != 0){
-            result.push(a[i])
-        }
-        else{
-            count++
-        }
-    }
-for(i=0;i<count;i++){
-    result.push(0)
-}
-return result
-}
-console.log(moveZerosToEnd(a))
+// let a=[0,5,0,3,8,0,2]
+// function moveZerosToEnd(a){
+//     let result=[]
+//     let count=0
+//     for(i=0;i<a.length;i++){
+//         if (a[i] != 0){
+//             result.push(a[i])
+//         }
+//         else{
+//             count++
+//         }
+//     }
+// for(i=0;i<count;i++){
+//     result.push(0)
+// }
+// return result
+// }
+// console.log(moveZerosToEnd(a))
+ 
+//###########################  DAY 10  ######################################
