@@ -307,3 +307,77 @@
 // console.log(moveZerosToEnd(a))
  
 //###########################  DAY 10  ######################################
+//########################### CALLLBACK  FUNCTION  ####################################
+
+//write a function calculate() that accepts two numbers and a callback function to perform addition
+// function task(func_add){
+//     func_add(10,20)
+// }
+
+// task(function addition(a,b){
+//     console.log(a+b)
+// }
+// )
+
+//Welcome hitha
+// function task(greet){
+//     greet('Hitha')
+// }
+// task(function greet(name){
+//         console.log("Welcome "+name)
+// }
+//)
+
+//Write a function checkNumber() that accepts a number , a callback function.the callback should check whether the number
+//is even or odd
+// function number(checkNumber){
+//     checkNumber(2)
+// }
+// number(checkNumber=(num)=>{
+//     if (num%2==0){
+//         console.log(num+' is even number')
+//     }
+//     else{
+//         console.log(num+' is odd number')
+//     }
+// })
+
+//An array:[10,15,20,25,30,35] callback function to identify the even numbers
+// function array(evneno){
+//     evneno([10,15,20,25,30,35])
+// }
+// array(function evenno(arr){
+//     res=[]
+//     for(i=0;i<arr.length;i++){
+//         if (i%2 == 0){
+//              res.push(arr[i])
+//         }
+//     }
+// })
+// console.log(res)
+
+//calculator which accepts addEventListener,sub,mul
+// function calc(callbacks){
+//     callbacks(10,20)
+// }
+// calc(function operation(a,b){
+//     console.log('Addition = '+(a+b))
+//     console.log('Subtraction = '+(b-a))
+//     console.log('Multiplication = '+(a*b))
+// })
+
+//you order food using Swiggy or zomato
+//after placing an order ,the app perform different actions:
+//1.First,it confirms your order
+//2.Then,it shows the delivery status
+//3.Finally,it notifes you when the food is delivered
+
+// function orderfood(callbacks){
+//     console.log('Your order is placed successfully')
+//     callbacks()
+// }
+// orderfood(function callbacks(){
+//     console.log('Your food is being prepared')
+//     console.log('Your food is out for delivery')
+//     console.log('Food delivered!')
+// })
