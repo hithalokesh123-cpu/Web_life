@@ -313,3 +313,38 @@
 //     return (file.slice(file.lastIndexOf('.')))
 // }
 // console.log(filename("document.txt"))
+
+// s='pentagon space'
+// a=s.split(' ')
+// res=[]
+// for(let w=0; w<a.length; w++)
+// {
+// out=a[w][0].toUpperCase() + a[w].slice(1)
+// res.push(out)
+// }
+// console.log(res.join(' '))
+
+// a=s.split(' ')
+// // res=[]
+// let out=''
+// for(let w=0; w<a.length; w++)
+// {
+// out= out+ a[w][0].toUpperCase() + a[w].slice(1) + ' '
+// // res.push(out)
+// }
+// console.log(out)
+
+
+let s='   oxford public school  '
+s=s.trim().split(' ')
+console.log(s)
+out=''
+for(let i=0; i<s.length; i++)
+{
+  for(let j=0; j<s[i].length; j=j+2)
+  {
+    out=out+s[i][j]
+  }
+  out=out+' '
+}
+console.log(out)
