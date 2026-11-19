@@ -161,3 +161,147 @@
 // //fromEntries()
 // let NewdataFormat=Object.entries(data1)
 // console.log(Object.fromEntries(NewdataFormat))          //{ name: 'nili', age: 35, flag: 'true' }
+
+//assign()
+// let user={
+//        name:'Yashu'
+// }
+// let persnal_info={
+//     age:25,
+//     flag:false
+// }
+// let Info_user={
+//     pass_code:'7654hgfdfuytr'
+// }
+// let finalUserdata=Object.assign({}, user,persnal_info)
+// console.log(finalUserdata)                        //{ name: 'Yashu', age: 25, flag: false }
+
+//Example2
+// let user={
+//        name:'Yashu'
+// }
+// let persnal_info={
+//     age:25,
+//     flag:false
+// }
+// let Info_user={
+//     pass_code:'7654hgfdfuytr'
+// }
+// let finalUserdata=Object.assign(Info_user, user,persnal_info)
+// console.log(Info_user)                 //{ pass_code: '7654hgfdfuytr', name: 'Yashu', age: 25, flag: false }
+
+
+//seal()
+// let emp_info={
+//     full_name:'Dinku Maharaja',
+//     age:36,
+//     pan_no:'2345678YUIPFGH',
+//     IsLoggedin:true
+// }
+// Object.seal(emp_info)
+
+// console.log('After sealing the object data')
+
+// //delete the pan_no
+// // delete emp_info.pan_no
+// // console.log(emp_info)                            // no same emp_info ,not deleted
+
+// //UPDATE AGE = 37
+// // emp_info.age=37
+// // console.log(emp_info)                               //yes upadate age =37 ,rest all same 
+
+// //addition
+// emp_info.refer='rani'
+// console.log(emp_info)                                //no changes ,not added refer=rani same emp_info
+
+
+//Object.isSealed()
+// let emp_info={
+//     full_name:'Dinku Maharaja',
+//     age:36,
+//     pan_no:'2345678YUIPFGH',
+//     IsLoggedin:true
+// }
+// Object.seal(emp_info)
+// if(Object.isSealed(emp_info)){
+//     console.log("We can't able to do some operation")
+// }
+// else{
+//     console.log("We can able to do some operation")
+// }
+
+
+//Object.freeze()
+// let emp_info={
+//     full_name:'Dinku Maharaja',
+//     age:36,
+//     pan_no:'2345678YUIPFGH',
+//     IsLoggedin:true
+// }
+// Object.freeze(emp_info)
+// //deletion
+// delete emp_info.pan_no
+// //addition
+// emp_info.refer='rani'
+// //updation
+// emp_info.age=37
+// console.log(emp_info)
+
+//******** output **********
+// {
+//   full_name: 'Dinku Maharaja',
+//   age: 36,
+//   pan_no: '2345678YUIPFGH',
+//   IsLoggedin: true
+// }
+
+
+//object.isFreeze()
+// let emp_info={
+//     full_name:'Dinku Maharaja',
+//     age:36,
+//     pan_no:'2345678YUIPFGH',
+//     IsLoggedin:true
+// }
+// Object.freeze(emp_info)
+// if(Object.isFrozen(emp_info)){
+//       console.log('TRUE')
+// }
+// else{
+//     console.log('FALSE')
+// }
+
+
+//object.hasOwn()
+// let emp_info={
+//     full_name:'Dinku Maharaja',
+//     age:36,
+//     pan_no:'2345678YUIPFGH',
+//     IsLoggedin:true
+// }
+// let res=Object.hasOwn(emp_info,"IsLoggedin")             //true
+// console.log(res)
+
+
+//object.is()
+// let emp_info={
+//     full_name:'Dinku Maharaja',
+//     age:36,
+//     pan_no:'2345678YUIPFGH',
+//     IsLoggedin:true
+// }
+
+//values
+// let res=Object.is(emp_info.full_name,"Dinku Maharaja")             //true
+// console.log(res)
+
+//object
+// let res=Object.is(emp_info,{name:'ramu',age:25})
+// console.log(res)                                                     //false
+
+// let rani={
+//      name:'ramu',
+//      age:25
+// }
+// let res=Object.is(emp_info,rani)
+// console.log(res)                                                        //false
