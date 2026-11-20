@@ -335,16 +335,36 @@
 // console.log(out)
 
 
-let s='   oxford public school  '
-s=s.trim().split(' ')
-console.log(s)
+// let s='   oxford public school  '
+// s=s.trim().split(' ')
+// console.log(s)
+// out=''
+// for(let i=0; i<s.length; i++)
+// {
+//   for(let j=0; j<s[i].length; j=j+2)
+//   {
+//     out=out+s[i][j]
+//   }
+//   out=out+' '
+// }
+// console.log(out)
+
+// console.log('rani'.padStart(3,'*'))
+
+
+n='918462758312'
+console.log(n.length)
+console.log((n.slice(-4).padStart(12,'#')))
+
 out=''
-for(let i=0; i<s.length; i++)
+for(let i=0; i<n.length; i++)
 {
-  for(let j=0; j<s[i].length; j=j+2)
-  {
-    out=out+s[i][j]
+  if (i<=7){
+    out=out+'#'
   }
-  out=out+' '
+  else{
+    out=out+n[i]
+  }
+
 }
 console.log(out)
