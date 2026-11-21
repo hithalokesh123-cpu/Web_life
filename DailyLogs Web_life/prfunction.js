@@ -381,3 +381,17 @@
 //     console.log('Your food is out for delivery')
 //     console.log('Food delivered!')
 // })
+
+//################################### DAY 11 ###############################################
+//****************************** CALLBACK RELATED STRING **********************************/
+
+//javascript => JAVASCRIPT 
+function processString(callback,str){
+    callback("javascript")
+}
+processString( callback=(str)=>{
+    return str.toUppercase()
+})
+console.log(callback)
+
+
