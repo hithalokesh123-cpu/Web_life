@@ -352,19 +352,19 @@
 // console.log('rani'.padStart(3,'*'))
 
 
-n='918462758312'
-console.log(n.length)
-console.log((n.slice(-4).padStart(12,'#')))
+// n='918462758312'
+// console.log(n.length)
+// console.log((n.slice(-4).padStart(12,'#')))
 
-out=''
-for(let i=0; i<n.length; i++)
-{
-  if (i<=7){
-    out=out+'#'
-  }
-  else{
-    out=out+n[i]
-  }
+// out=''
+// for(let i=0; i<n.length; i++)
+// {
+//   if (i<=7){
+//     out=out+'#'
+//   }
+//   else{
+//     out=out+n[i]
+//   }
 
-}
-console.log(out)
+// }
+// console.log(out)
