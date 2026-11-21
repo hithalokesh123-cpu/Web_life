@@ -386,12 +386,129 @@
 //****************************** CALLBACK RELATED STRING **********************************/
 
 //javascript => JAVASCRIPT 
-function processString(callback,str){
-    callback("javascript")
-}
-processString( callback=(str)=>{
-    return str.toUppercase()
-})
-console.log(callback)
+// function processString(callback,str){
+//     callback('javascript')
+// }
+// processString((str)=>{
+//     console.log(str.toUpperCase())
+// })
+
+
+
+//PASS A STRING AND A CALLBACK TO COUNT A VOWEL
+// function check_vowel(vowel,str){
+//     vowel('hanUmAn')
+// }
+// check_vowel((str)=>{
+//     count=0
+//     for(i=0;i<str.length;i++){
+//         if ('aeiouAEIOU'.includes(str[i])){
+//              count++
+             
+//         }
+//     }  
+//     console.log('No of vowels is:'+count) 
+// })
+
+
+
+//PASS A STRING AND A CALLABCK TO REVERSE THE STRING 
+// function reverseString(check,str){
+//         check(str)
+// }
+// reverseString((str)=>{
+//       console.log(str.split('').reverse().join(''))
+// },'mangolia')
+
+//without using function
+// function reverseString(check,str){
+//      let res=check(str)
+//      console.log(res)
+// }
+// reverseString((str)=>{
+//         rev=''
+//         for(i=str.length-1;i>=0;i--){
+//             rev=rev+str[i]
+//         }
+//         return rev
+// },'mangolia')
+
+//using return statement
+// function reverseString(check,str){
+//        let res= check(str)
+//        console.log(res)
+// }
+// reverseString((str)=>{
+//       let rev=str.split('').reverse().join('')
+//       return rev
+// },'mangolia')
+
+
+//PASS STRING AND A CALLBACK TO CHECK WHWTER IT IS PALLINDROME
+//using method
+// function string(palindrome,str){
+//    let res= palindrome(str)
+//    console.log(res)
+// }
+// string((str)=>{
+//     rev=str.split('').reverse().join('')
+//     return str==rev
+// },'mom')
+
+// function string(palindrome,str){
+//     let result= palindrome(str)
+//     console.log(result)
+// }
+// string((str)=>{
+//     temp=str
+//     rev=''
+//     for(i=str.length-1;i>=0;i--){
+//         rev=rev+str[i]
+//     }
+//     if (temp == rev){
+//         return 'it is palindrome'
+//     }
+// },'pop')
+
+
+
+//PASS A STRING AND A CALLBACK TO COUNT THE NUMBER OF WORDS
+// function wor_count(word,str){
+//       word(str)
+// }
+// wor_count((str)=>{
+//     count=0
+//     for(i=0;i<str.length;i++){
+//         count++
+//     }
+//     console.log(count)
+// },'happiness')
+
+
+//using method
+// function wor_count(word,str){
+//       word(str)
+// }
+// wor_count((str)=>{
+//     count=str.length
+//     console.log(count)
+// },'happiness')
+
+
+//word count
+// function wor_count(word,str){
+//       word(str)
+// }
+// wor_count((str)=>{
+//     let s=str.split(" ")
+//     for(i=0;i<s.length;i++){
+//         count=s[i].length+" "
+//     }
+//    console.log(count) 
+// },'happiness is  joy')
+
+
+
+
 
 
