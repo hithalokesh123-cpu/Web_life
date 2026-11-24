@@ -18,7 +18,7 @@
 // let newArr = a.map(x => x*5)
 // console.log(newArr)
 
-//map getting item,index
+//map getting item
 // a=[1,2,3,4,5,6]
 // a.map((item,index,orgarray)=>{
 //      console.log(item,index,orgarray)
@@ -99,8 +99,11 @@
 // console.log(res)
 
 //count how many number divisible by 2 and 3
-a=[1,2,3,4,5,6,7,8,9]
-let res=a.filter((item)=>(item%2==0) && (item%3== 0)).reduce((acc,x)=>acc + x)
-console.log(res)
+// a=[1,2,3,4,5,6,7,8,9]
+// let res=a.filter((item)=>(item%2==0) && (item%3== 0)).reduce((acc,x)=>acc+1,0)
+// console.log(res)
 
 //find the total number of character in the the string 
+// s='marvolous'
+// let res = s.split('').reduce((acc,x)=>acc+1,0)
+// console.log(res)
