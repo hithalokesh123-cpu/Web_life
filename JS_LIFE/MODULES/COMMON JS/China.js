@@ -1,15 +1,15 @@
 // let toys='remote control car'
-// //export
+// //1.export
 // module.exports = toys
 
-//function
+//2.function
 // function print(){
 //     console.log('Welcome to china')
 // }
 // module.exports=print
 
 
-//both toys and function export
+//3.both toys and function export
 // let toys='remote control car'
 // function print(){
 //     console.log('Welcome to china')
@@ -17,7 +17,7 @@
 // module.exports = toys
 // module.exports = print
 
-//both should be export and import to display =>using {key ,val}
+//4.both should be export and import to display =>using {key ,val}
 // let toys='remote control car'
 // function print(){
 //     console.log('Welcome to china')
@@ -25,14 +25,14 @@
 // module.exports={print,toys}
 
 
-// Using desturing =>both should be export and import to display =>using {key,val}
+// 5.Using desturing =>both should be export and import to display =>using {key,val}
 // let toys='remote control car'
 // function print(){
 //     console.log('Welcome to china')
 // }
 // module.exports={print,toys}
 
-//export
+//6.export
 //object employeeinfo ,userinfo
 // let employeeinfo={
 //     empid:'E103',

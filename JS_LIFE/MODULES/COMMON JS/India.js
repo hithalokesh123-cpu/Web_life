@@ -1,14 +1,15 @@
-//import cars
-
+//1.import cars
 // let toys = require('./China')
 // console.log(toys)                                         //remote control car
 
-//import function
+
+
+//2.import function
 // let print=require('./China')
 // print()
 
 
-//import both toys and function using two export module statement
+//3.import both toys and function using two export module statement
 // let toys = require('./China')
 // let print= require('./China')
 // print()                    //Welcome to china
@@ -17,12 +18,14 @@
                                                //first=toys ,second =function last one will exceute 
 
 
-//import both should display toys and function 
+//4.import both should display toys and function 
 // let anything = require('./China')
 // anything.print()
 // console.log(anything.toys)
 
-//Using desturing import both should display toys and function 
+
+
+//5.Using desturing import both should display toys and function 
 // let {print,toys} = require('./China')
 // print()
 // console.log(toys)
@@ -33,7 +36,7 @@
 
 
 
-//import object 
+//6.import object 
 //import both emplyeeinfo and userinfo
 // let person=require('./China')
 // console.log(person.employeeinfo)         //{ empid: 'E103', sal: 25000, designation: 'manager' }

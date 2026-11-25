@@ -22,6 +22,6 @@
 // console.log(toys2)           //ERROR  => desturing single line is not possible while import 
 
 ////using desturturing in double line is  possible multiple data import(export using =>{key:val})
-import object from './USA.js'
-let {toys1:t1,toys2:t2}=object
-console.log(t1);console.log(t2)
+// import object from './USA.js'
+// let {toys1:t1,toys2:t2}=object
+// console.log(t1);console.log(t2)
