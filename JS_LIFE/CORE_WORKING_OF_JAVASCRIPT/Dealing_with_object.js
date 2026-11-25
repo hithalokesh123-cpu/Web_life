@@ -31,7 +31,7 @@
 // console.log(data2);                                    //10
 // console.log("after the update>>>>");
 
-// data2=100
+// data1=100
 // console.log(data1);                                   //10 bcz it doesnt have a reletion 
 // console.log(data2);                                   //100
 
