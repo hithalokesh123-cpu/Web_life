@@ -201,3 +201,33 @@ console.log(x)
  ########################## DAY 13 ########################################
  MODULE
  TWO TYPES 
+ 1)COMMON JS
+ 2)ES MODULE
+
+ 1)COMMON JS code
+ *FEACTURES
+ =>IT IS TRADITIONAL APPROACHDEAL WITH MODULE
+ =>single import and export is possible
+ =>we can import or export the multiple data
+      =>having two module exports for multiple data,while importing it overriden the previous data 
+          last mentioned data will be displayed
+ =>if i want to display both data using {var1,var2} should passed in the form of object 
+ =>destructuring is possible in single line
+
+ 2)ES6 module => modern approach to deal with model
+ two types:
+ 1) DEFAULT EXPORT
+ 2)NAMED EXPORT
+ 
+ 1)DEFAULT EXPORT
+ *FEACTURES
+ =>single import and export is possible
+ =>we cannot import or export the multiple data
+ =>if i want to display both data using {var1,var2} should passed in the form of object 
+ =>single line destructuring is not possible
+ =>double line destructuring is possible
+
+
+
+ 
+
