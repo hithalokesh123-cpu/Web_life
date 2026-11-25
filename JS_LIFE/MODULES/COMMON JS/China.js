@@ -26,11 +26,11 @@
 
 
 // Using desturing =>both should be export and import to display =>using {key,val}
-let toys='remote control car'
-function print(){
-    console.log('Welcome to china')
-}
-module.exports={print,toys}
+// let toys='remote control car'
+// function print(){
+//     console.log('Welcome to china')
+// }
+// module.exports={print,toys}
 
 //export
 //object employeeinfo ,userinfo
