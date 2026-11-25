@@ -197,3 +197,7 @@ console.log(x)
  * const
 
  programs on while string methods 
+
+ ########################## DAY 13 ########################################
+ MODULE
+ TWO TYPES 
