@@ -534,3 +534,33 @@
 // let res=Array.from(user)
 // console.log(res)
 
+// data=[1,4,6]
+// if (Array.isArray(data)){
+//     console.log('data received in structured way ')
+// }
+// else{
+//     console.log("data not rececived in the structured way ")
+// }
+
+// let data=[1,[2,3],4,'hi',56,'hello',[3,7,10]]
+// console.log(Array.of(data))
+
+// a=[1,4,6]
+// a.push('jamun',2,3,5)
+// console.log(a)
+
+// a=['good','god',345,456,200,'bad','man','royal']
+// console.log(a.pop())
+
+// a=['good','god',345,456,200,'bad','man','royal']
+// // console.log(a.shift())
+// // console.log(a)
+// // console.log(a.pop())
+// let res=(a.unshift("royal"))
+// console.log(res)
+// console.log(a)
+// // console.log(a.push('good'))
+// // console.log(a)
+
+a=['good','god',345,456,200,'bad','man','royal']
+console.log(a.slice(9))
