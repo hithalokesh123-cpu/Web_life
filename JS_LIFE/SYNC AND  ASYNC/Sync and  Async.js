@@ -125,4 +125,35 @@
 //done with the program 
 
 
-//^---- clearInterval
+//^---- clearInterval() --------  
+// console.log("program starting")
+// console.log("program mid")
+
+// let interval =setInterval(()=>{
+//        console.log("program...")
+// },1000)
+// setTimeout(()=>{
+//        clearInterval(interval)
+// },7000)
+
+// console.log("Dealing with impdata")
+// console.log("program ended")
+
+//*output
+// program starting
+// program mid
+// Dealing with impdata
+// program ended
+//!take every time (1s) for print program...
+// program...
+// program...
+// program...
+// program...
+// program...
+// program...
+//!print 6 times another 1 time is buffering time 
+
+//! (setInterval() / setTimeout()) => time exact half time (print)
+//!(7000/1000) =7 print (program....) but 1 time is buffer (total = 6 times print)
+
+
