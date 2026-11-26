@@ -508,7 +508,29 @@
 // },'happiness is  joy')
 
 
+// ############################ Day 14 ############################
+//Static method
+//Array.from()
+//Array.isArray()
+//Array.of()
 
+// ch='nobelprice'
+// console.log(Array.from(ch))
 
+// let n = 6
+// console.log(Array.from(n))
 
+// let num=[1,2,3,4,5,6,7,8]
+// let res=(Array.from(num,(num)=>num%2!=0))
+// console.log(res)
+
+// let user={
+//     0:'nanu',
+//     1:false,
+//     2:true,
+//     3:'married',
+//     length:3
+// }
+// let res=Array.from(user)
+// console.log(res)
 

@@ -28,7 +28,7 @@
 
 
 // ********************************************  STATIC METHOD OF ARRAY **************************************
-// ############ 1)Array.from() ############
+//^ ############ 1)Array.from() ############
 // let a='marvolous'
 // console.log(Array.from(a)) 
 
@@ -44,15 +44,15 @@
 // let b1=1
 // console.log(Array.from(b1))                                        //[]
 
-// ########### syntax--->Array.from(ArrayRef,function()) ###############
+// *########### syntax--->Array.from(ArrayRef,function()) ###############
 // let arr=[7,8,3,5,3,2,1]
 // console.log(Array.from(arr,(num)=>num*5))
 
 // let arr1="javascript"
-// console.log(Array.from(arr1,(ch)=>ch+0).toString().replaceAll(","," "))
+// console.log(Array.from(arr1,(ch)=>ch+'*').toString().replaceAll(","," "))
 
 
-//########### 2)Array.isArray() #################
+//^########### 2)Array.isArray() #################
 // let arr=[4,6,7,3,2,1]
 // if(Array.isArray(arr)){
 //     console.log("data is received in the form of array")
@@ -61,7 +61,7 @@
 //     console.log("data is not received in the form of array")
 // }
 
-// ############## 3)Array.of() ############
+// ^############## 3)Array.of() ############
 // let a=[1,2,3,4,5,9,10]
 // console.log(Array.of(a))
 // console.log(Array.of(10))
@@ -239,8 +239,8 @@
 
 //toSpliced()
 // a=[20,40,60,80,100]
-// // let deletedarr=a.toSpliced(1,3)                                          //deletedarr20,100
-// // let deletedarr=a.toSpliced(1,3,'somu','ramu','junnu','soni','anish')        //deletedarr20,somu,ramu,junnu,soni,anish,100 
+// let deletedarr=a.toSpliced(1,3)                                          //deletedarr20,100
+// let deletedarr=a.toSpliced(1,3,'somu','ramu','junnu','soni','anish')        //deletedarr20,somu,ramu,junnu,soni,anish,100 
 // let deletedarr=a.toSpliced(0,4,'somu')                                        //deletedarrsomu,100
 // console.log('deletedarr'+ deletedarr)
 // console.log(a)                                                              //[ 20, 40, 60, 80, 100 ]
