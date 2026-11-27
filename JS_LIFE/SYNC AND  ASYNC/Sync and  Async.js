@@ -1,4 +1,4 @@
-//^ ##################  Sychrouous code excection #################3
+//^ ##################  Sychrouous code excection ##################
 // console.log("program starting")
 // console.log("program mid")
 
@@ -108,11 +108,11 @@
 // console.log("program starting")
 // console.log("program mid")
 // function handlingData(){
-//        for(i=0;i<111;i++){console.log(i)}
+//        for(i=0;i<1234567;i++){console.log(i)}
 //        console.log('done with the program')
 // }
-// clearTimeout(handlingData)
-// setTimeout(handlingData,5000)
+// let timeid=setTimeout(handlingData,5000)
+// clearTimeout(timeid)
 // console.log("Dealing with impdata")
 // console.log("program ended")
 
@@ -121,8 +121,7 @@
 // program mid
 // Dealing with impdata
 // program ended
-//wait (5s) ,after  for loop execute,immediately execute
-//done with the program 
+//no function execution  
 
 
 //^---- clearInterval() --------  
