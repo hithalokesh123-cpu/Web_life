@@ -102,9 +102,10 @@
 
 //splice()
 // a=[20,40,60,80,100]
-// // let deletedarr=a.splice(1,3)
-// // let deletedarr=a.splice(1,3,'somu','ramu','junnu','soni','anish')
+// let deletedarr=a.splice(1,3)
+// let deletedarr=a.splice(1,3,'somu','ramu','junnu','soni','anish')
 // let deletedarr=a.splice(1,0,'somu','ramu','junnu','soni','anish')
+// let deletedarr=a.splice(2,4)
 // console.log('deletedarr'+ deletedarr)
 // console.log(a)
 
@@ -171,9 +172,10 @@
 // let array=[1,2,3,4,5,6,7,8,9,10]
 // console.log(array.some((num)=>num>5))
 
-//fill()
-// let arr=[1,2,3,4,5,6,7]
-// console.log(arr.fill("sonal",1,5))
+//fill()=> working like replace
+let arr=[1,2,3,4,5,6,7]
+// console.log(arr.fill("sonal",3,6))
+console.log(arr.fill("sonal",2,6))
 
 //find()
 // let arr=[1,2,3,4,5]
@@ -242,8 +244,25 @@
 // let deletedarr=a.toSpliced(1,3)                                          //deletedarr20,100
 // let deletedarr=a.toSpliced(1,3,'somu','ramu','junnu','soni','anish')        //deletedarr20,somu,ramu,junnu,soni,anish,100 
 // let deletedarr=a.toSpliced(0,4,'somu')                                        //deletedarrsomu,100
-// console.log('deletedarr'+ deletedarr)
+// console.log('deletedarr:'+ deletedarr)
 // console.log(a)                                                              //[ 20, 40, 60, 80, 100 ]
 
+// a=[20,30,40,50,60]
+//slice
+// console.log(a.splice(2,2,100,110))
+// console.log(a)
+//toSpliced()
+// console.log(a.toSpliced(2,2))
+// console.log(a)
 
+// console.log([1,2].concat([3],[4,[5,6]],'hii')
 
+// let a=[10,20,30,40,50]
+// console.log(a)
+// console.log('start loop')
+// for(let i=1; i<5; i++)
+// {
+//     a.push(a.shift())
+//     console.log(a)
+// }
+// console.log(a)
