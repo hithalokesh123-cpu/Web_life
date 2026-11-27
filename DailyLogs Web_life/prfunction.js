@@ -529,9 +529,9 @@
 //     1:false,
 //     2:true,
 //     3:'married',
-//     length:3
+//     length:4
 // }
-// let res=Array.from(user)
+// let res=(Array.from((user),(num)=>num*2))
 // console.log(res)
 
 // data=[1,4,6]
@@ -562,5 +562,9 @@
 // // console.log(a.push('good'))
 // // console.log(a)
 
-a=['good','god',345,456,200,'bad','man','royal']
-console.log(a.slice(9))
+// a=['good','god',345,456,200,'bad','man','royal']
+// console.log(a.slice(9))
+
+// a=[10,20,30,40,50]
+// x=[1,20,30]
+// y=[30,40,50]
